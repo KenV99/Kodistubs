@@ -9,8 +9,7 @@ var searchData=
   ['icon_5foverlay_5funwatched',['ICON_OVERLAY_UNWATCHED',['../namespacexbmcgui.html#afb3d67d3b14cc09a40a103fda7facad7',1,'xbmcgui']]],
   ['icon_5foverlay_5fwatched',['ICON_OVERLAY_WATCHED',['../namespacexbmcgui.html#a9552abc83e9af1b427469bcd5aa75510',1,'xbmcgui']]],
   ['icon_5foverlay_5fzip',['ICON_OVERLAY_ZIP',['../namespacexbmcgui.html#aa26c1412686bf228521e74d031da4daa',1,'xbmcgui']]],
-  ['infotagmusic',['InfoTagMusic',['../classxbmc_1_1_info_tag_music.html',1,'xbmc']]],
-  ['infotagvideo',['InfoTagVideo',['../classxbmc_1_1_info_tag_video.html',1,'xbmc']]],
+  ['image',['Image',['../classaddonwindow_1_1_image.html',1,'addonwindow']]],
   ['input',['input',['../classxbmcgui_1_1_dialog.html#a7a97985e609ca33ce9c9abd9b2640cbf',1,'xbmcgui::Dialog']]],
   ['input_5falphanum',['INPUT_ALPHANUM',['../namespacexbmcgui.html#a4095208ab9e618111363f6726e48f35f',1,'xbmcgui']]],
   ['input_5fdate',['INPUT_DATE',['../namespacexbmcgui.html#a3a06cf0445af2b81ecf0eb61dd32b185',1,'xbmcgui']]],
@@ -19,12 +18,6 @@ var searchData=
   ['input_5fpassword',['INPUT_PASSWORD',['../namespacexbmcgui.html#a7a52fc3fe1f4613b4a404fc42833e05b',1,'xbmcgui']]],
   ['input_5ftime',['INPUT_TIME',['../namespacexbmcgui.html#a0fc9d2fd942e6b1862b4bd47197a0772',1,'xbmcgui']]],
   ['iscanceled',['iscanceled',['../classxbmcgui_1_1_dialog_progress.html#a85726dc6b6a3f06fd49841e47c7e237c',1,'xbmcgui::DialogProgress']]],
-  ['isconfirmed',['isConfirmed',['../classxbmc_1_1_keyboard.html#ab1a1ad4fb3d97c96f3a3d6e6ecf5d4d2',1,'xbmc::Keyboard']]],
   ['isfinished',['isFinished',['../classxbmcgui_1_1_dialog_progress_b_g.html#a8dd0958de67e4fdaad52342e36e2aea9',1,'xbmcgui::DialogProgressBG']]],
-  ['iso_5f639_5f1',['ISO_639_1',['../namespacexbmc.html#ae1197640c70c0260da2fe81f4c04de2c',1,'xbmc']]],
-  ['iso_5f639_5f2',['ISO_639_2',['../namespacexbmc.html#ad1391b913d9e907d032504950883a6b0',1,'xbmc']]],
-  ['isplaying',['isPlaying',['../classxbmc_1_1_player.html#a692b01a9f20cf19e322a40cb8a780b3c',1,'xbmc::Player']]],
-  ['isplayingaudio',['isPlayingAudio',['../classxbmc_1_1_player.html#a5e15c1a7c530644a69d2c781b5820b87',1,'xbmc::Player']]],
-  ['isplayingvideo',['isPlayingVideo',['../classxbmc_1_1_player.html#aecc774a4bb71633321f90701e02f0fad',1,'xbmc::Player']]],
   ['isselected',['isSelected',['../classxbmcgui_1_1_list_item.html#ac62104a6fc9a37ed4c639334e9794f76',1,'xbmcgui.ListItem.isSelected()'],['../classxbmcgui_1_1_control_radio_button.html#a0ed4bfd23d167ac4f6514f48370a8021',1,'xbmcgui.ControlRadioButton.isSelected()']]]
 ];

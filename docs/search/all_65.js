@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['enablenavsounds',['enableNavSounds',['../namespacexbmc.html#a43bb4ea8bd6af39ffa5a6626f84db53d',1,'xbmc']]],
-  ['endofdirectory',['endOfDirectory',['../namespacexbmcplugin.html#ace4ae37e7c8d9e81922c89cac84f8a8f',1,'xbmcplugin']]],
-  ['english_5fname',['ENGLISH_NAME',['../namespacexbmc.html#aa1e79b084011022db3ea49b455a7b74b',1,'xbmc']]],
-  ['executebuiltin',['executebuiltin',['../namespacexbmc.html#adb104e9595c4be505c3f08c43a3c2532',1,'xbmc']]],
-  ['executejsonrpc',['executeJSONRPC',['../namespacexbmc.html#a36e196b2bfe38a9c914057a5f75aaf45',1,'xbmc']]],
-  ['executescript',['executescript',['../namespacexbmc.html#a177c3d8d5e67dc66eced6abb17182464',1,'xbmc']]],
-  ['exists',['exists',['../namespacexbmcvfs.html#a21ceaf93bec585ca2f80eea25c220e2e',1,'xbmcvfs']]]
+  ['edit',['Edit',['../classaddonwindow_1_1_edit.html',1,'addonwindow']]],
+  ['executeconnected',['executeConnected',['../classaddonwindow_1_1___abstract_window.html#af7123f7679a457dfe54adbdae408e25b',1,'addonwindow::_AbstractWindow']]]
 ];
