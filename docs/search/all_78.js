@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['x',['x',['../classaddonwindow_1_1___abstract_window.html#adb8746c89fb16d10d0c56f5740561009',1,'addonwindow::_AbstractWindow']]],
-  ['x_5fmargin',['X_MARGIN',['../classaddonwindow_1_1___addon_window.html#a57d5683a9c96385e10225feb1d9a1223',1,'addonwindow::_AddonWindow']]],
+  ['xbmc',['xbmc',['../namespacexbmc.html',1,'']]],
+  ['xbmc_2epy',['xbmc.py',['../xbmc_8py.html',1,'']]],
+  ['xbmcaddon',['xbmcaddon',['../namespacexbmcaddon.html',1,'']]],
+  ['xbmcaddon_2epy',['xbmcaddon.py',['../xbmcaddon_8py.html',1,'']]],
   ['xbmcgui',['xbmcgui',['../namespacexbmcgui.html',1,'']]],
-  ['xbmcgui_2epy',['xbmcgui.py',['../xbmcgui_8py.html',1,'']]]
+  ['xbmcgui_2epy',['xbmcgui.py',['../xbmcgui_8py.html',1,'']]],
+  ['xbmcplugin',['xbmcplugin',['../namespacexbmcplugin.html',1,'']]],
+  ['xbmcplugin_2epy',['xbmcplugin.py',['../xbmcplugin_8py.html',1,'']]],
+  ['xbmcvfs',['xbmcvfs',['../namespacexbmcvfs.html',1,'']]],
+  ['xbmcvfs_2epy',['xbmcvfs.py',['../xbmcvfs_8py.html',1,'']]]
 ];

@@ -1,5 +1,19 @@
 var searchData=
 [
   ['password_5fverify',['PASSWORD_VERIFY',['../namespacexbmcgui.html#a16ea83afc37f649327eacd3289b2713b',1,'xbmcgui']]],
-  ['placecontrol',['placeControl',['../classaddonwindow_1_1___abstract_window.html#a16d38ff713a3b2790eb39accdc24cb1b',1,'addonwindow::_AbstractWindow']]]
+  ['pause',['pause',['../classxbmc_1_1_player.html#af9dfa4e0454bfca98a2c9d921e4e95f3',1,'xbmc::Player']]],
+  ['play',['play',['../classxbmc_1_1_player.html#aaeee710918bc01c56cc64fd1b15f76a6',1,'xbmc::Player']]],
+  ['player',['Player',['../classxbmc_1_1_player.html',1,'xbmc']]],
+  ['player_5fcore_5fauto',['PLAYER_CORE_AUTO',['../namespacexbmc.html#aa46b053b40880702eb4e180bff858135',1,'xbmc']]],
+  ['player_5fcore_5fdvdplayer',['PLAYER_CORE_DVDPLAYER',['../namespacexbmc.html#a612999302e7e37d5029ca286700e2dd4',1,'xbmc']]],
+  ['player_5fcore_5fmplayer',['PLAYER_CORE_MPLAYER',['../namespacexbmc.html#a09b89f0d72aafdf3bc3c36b6b7a49bd8',1,'xbmc']]],
+  ['player_5fcore_5fpaplayer',['PLAYER_CORE_PAPLAYER',['../namespacexbmc.html#a849c6ec3e503503d969567bdc01bb498',1,'xbmc']]],
+  ['playlist',['PlayList',['../classxbmc_1_1_play_list.html',1,'xbmc']]],
+  ['playlist_5fmusic',['PLAYLIST_MUSIC',['../namespacexbmc.html#ab4ec08c518960b85e045f3356987af3d',1,'xbmc']]],
+  ['playlist_5fvideo',['PLAYLIST_VIDEO',['../namespacexbmc.html#af1abd5457b834fcc96f7120368f55674',1,'xbmc']]],
+  ['playlistitem',['PlayListItem',['../classxbmc_1_1_play_list_item.html',1,'xbmc']]],
+  ['playnext',['playnext',['../classxbmc_1_1_player.html#ab66b75e839bd83c8d39796ee9299a647',1,'xbmc::Player']]],
+  ['playprevious',['playprevious',['../classxbmc_1_1_player.html#a7501818b50b29bd48ecfbc24578543fb',1,'xbmc::Player']]],
+  ['playselected',['playselected',['../classxbmc_1_1_player.html#a9833f427826acb5876f173319a1f6a00',1,'xbmc::Player']]],
+  ['playsfx',['playSFX',['../namespacexbmc.html#a6004dc23e9719e9043fcfc7b6f270785',1,'xbmc']]]
 ];
