@@ -276,13 +276,25 @@ Creates a radio-button with 2 states.
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>TextureRadioFocus</em> = <code>None</code>, </td>
+          <td class="paramname"><em>focusOnTexture</em> = <code>None</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>TextureRadioNoFocus</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>noFocusOnTexture</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>focusOffTexture</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>noFocusOffTexture</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -307,8 +319,12 @@ disabledColor: hexstring - color of disabled radio button's label. (e.g. '0xFFFF
 angle: integer - angle of control. (+ rotates CCW, - rotates CW)
 shadowColor: hexstring - color of radio button's label's shadow. (e.g. '0xFF000000')
 focusedColor: hexstring - color of focused radio button's label. (e.g. '0xFF00FFFF')
-TextureRadioFocu: string - filename for radio focus texture.
-TextureRadioNoFocus: string - filename for radio no focus texture.
+focusOnTexture: string - filename for radio focused/checked texture.
+noFocusOnTexture: string - filename for radio not focused/checked texture.
+focusOffTexture: string - filename for radio focused/unchecked texture.
+noFocusOffTexture: string - filename for radio not focused/unchecked texture.
+Note: To customize RadioButton all 4 abovementioned textures need to be provided.
+focus and noFocus textures can be the same.
 
 Note:
     After you create the control, you need to add it to the window with addControl().
@@ -1319,7 +1335,7 @@ example:
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 8 2013 20:50:57 for XBMC Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 17 2013 17:25:43 for XBMC Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
