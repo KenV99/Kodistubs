@@ -112,5 +112,6 @@ var searchData=
   ['st_5fuid',['st_uid',['../classxbmcvfs_1_1_stat.html#af60b60fbe67640ce0b1fc4edbc262b73',1,'xbmcvfs::Stat']]],
   ['startserver',['startServer',['../namespacexbmc.html#ad936b0921116b43892cc47e715e1b41c',1,'xbmc']]],
   ['stat',['Stat',['../classxbmcvfs_1_1_stat.html',1,'xbmcvfs']]],
-  ['stop',['stop',['../classxbmc_1_1_player.html#a86bcb24f5eb8e360ee76e47d7cfc8458',1,'xbmc::Player']]]
+  ['stop',['stop',['../classxbmc_1_1_player.html#a86bcb24f5eb8e360ee76e47d7cfc8458',1,'xbmc::Player']]],
+  ['stopsfx',['stopSFX',['../namespacexbmc.html#ab2c355f70c606fc115aaf6c6b0899ed9',1,'xbmc']]]
 ];

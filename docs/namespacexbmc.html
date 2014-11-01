@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">XBMC Python API
-   &#160;<span id="projectnumber">2.1.0 (13.0 Gotham)</span>
+   &#160;<span id="projectnumber">2.14.0 (14.0 Helix)</span>
    </div>
    <div id="projectbrief">Uonfficial documentation for XBMC Python API.</div>
   </td>
@@ -163,6 +163,8 @@ Functions</h2></td></tr>
 <tr class="separator:a625e75ad2151a33b2897ba30e878a54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6004dc23e9719e9043fcfc7b6f270785"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexbmc.html#a6004dc23e9719e9043fcfc7b6f270785">playSFX</a></td></tr>
 <tr class="separator:a6004dc23e9719e9043fcfc7b6f270785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2c355f70c606fc115aaf6c6b0899ed9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexbmc.html#ab2c355f70c606fc115aaf6c6b0899ed9">stopSFX</a></td></tr>
+<tr class="separator:ab2c355f70c606fc115aaf6c6b0899ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ec4e7a39ec02af8e56539a4774a25d5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexbmc.html#a9ec4e7a39ec02af8e56539a4774a25d5">restart</a></td></tr>
 <tr class="separator:a9ec4e7a39ec02af8e56539a4774a25d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab115f7301c7f892a68c2fd573f4405f9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexbmc.html#ab115f7301c7f892a68c2fd573f4405f9">shutdown</a></td></tr>
@@ -830,7 +832,8 @@ fatX : [opt] bool - True=Xbox file system(Default)
 
 *Note, If fatX is true you should pass a full path. If fatX is false only pass the basename of the path.
 
-You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.
+You can use the above as keywords for arguments and skip certain optional arguments.
+Once you use a keyword, all following arguments require the keyword.
 
 example:
 - filename = xbmc.makeLegalFilename('F: Age: The Meltdown.avi')
@@ -845,17 +848,30 @@ example:
           <td class="memname">def xbmc.playSFX </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>useCached</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">playSFX(filename)--Plays a wav file by filename
+<pre class="fragment">playSFX(filename,[useCached])--Plays a wav file by filename
 
 filename : string - filename of the wav file to play.
+useCached : [opt] bool - False = Dump any previously cached wav associated with filename
 
 example:
 - xbmc.playSFX('special://xbmc/scripts/dingdong.wav')
+
+- xbmc.playSFX('special://xbmc/scripts/dingdong.wav',False)
 </pre> 
 </div>
 </div>
@@ -987,6 +1003,25 @@ returnValue : bool - True or False
 
 example:
 - xbmc.startServer(xbmc.SERVER_AIRPLAYSERVER, False)
+</pre> 
+</div>
+</div>
+<a class="anchor" id="ab2c355f70c606fc115aaf6c6b0899ed9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def xbmc.stopSFX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">stopSFX() -- Stops wav file
+
+example:
+- xbmc.stopSFX()
 </pre> 
 </div>
 </div>
@@ -1512,7 +1547,7 @@ example:
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 17 2013 17:25:42 for XBMC Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 1 2014 12:45:36 for XBMC Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
