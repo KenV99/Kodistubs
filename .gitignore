@@ -86,3 +86,6 @@ target/
 .zip
 .rar
 .7z
+
+epydoc.cfg
+epydoc.cmd
