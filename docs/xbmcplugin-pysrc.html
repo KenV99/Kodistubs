@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>xbmcplugin</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.kodi.tv">Kodi Python API modules</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;xbmcplugin
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="xbmcplugin-module.html">Module xbmcplugin</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">## @package xbmcplugin</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment">#  Functions for XBMC plugins.</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-comment">#</tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-docstring">Functions for Kodi plugins</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"><tt id="link-0" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_ALBUM=xbmcplugin-module.html#SORT_METHOD_ALBUM"><a title="xbmcplugin.SORT_METHOD_ALBUM" class="py-name" href="#" onclick="return doclink('link-0', 'SORT_METHOD_ALBUM', 'link-0');">SORT_METHOD_ALBUM</a></tt> <tt class="py-op">=</tt> <tt class="py-number">13</tt> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"><tt id="link-1" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_ALBUM_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_ALBUM_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_ALBUM_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-1', 'SORT_METHOD_ALBUM_IGNORE_THE', 'link-1');">SORT_METHOD_ALBUM_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">14</tt> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"><tt id="link-2" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_ARTIST=xbmcplugin-module.html#SORT_METHOD_ARTIST"><a title="xbmcplugin.SORT_METHOD_ARTIST" class="py-name" href="#" onclick="return doclink('link-2', 'SORT_METHOD_ARTIST', 'link-2');">SORT_METHOD_ARTIST</a></tt> <tt class="py-op">=</tt> <tt class="py-number">11</tt> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line"><tt id="link-3" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_ARTIST_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_ARTIST_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_ARTIST_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-3', 'SORT_METHOD_ARTIST_IGNORE_THE', 'link-3');">SORT_METHOD_ARTIST_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">12</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"><tt id="link-4" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_BITRATE=xbmcplugin-module.html#SORT_METHOD_BITRATE"><a title="xbmcplugin.SORT_METHOD_BITRATE" class="py-name" href="#" onclick="return doclink('link-4', 'SORT_METHOD_BITRATE', 'link-4');">SORT_METHOD_BITRATE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">40</tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"><tt id="link-5" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_CHANNEL=xbmcplugin-module.html#SORT_METHOD_CHANNEL"><a title="xbmcplugin.SORT_METHOD_CHANNEL" class="py-name" href="#" onclick="return doclink('link-5', 'SORT_METHOD_CHANNEL', 'link-5');">SORT_METHOD_CHANNEL</a></tt> <tt class="py-op">=</tt> <tt class="py-number">38</tt> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line"><tt id="link-6" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_COUNTRY=xbmcplugin-module.html#SORT_METHOD_COUNTRY"><a title="xbmcplugin.SORT_METHOD_COUNTRY" class="py-name" href="#" onclick="return doclink('link-6', 'SORT_METHOD_COUNTRY', 'link-6');">SORT_METHOD_COUNTRY</a></tt> <tt class="py-op">=</tt> <tt class="py-number">16</tt> </tt>
+<a name="L15"></a><tt class="py-lineno"> 15</tt>  <tt class="py-line"><tt id="link-7" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_DATE=xbmcplugin-module.html#SORT_METHOD_DATE"><a title="xbmcplugin.SORT_METHOD_DATE" class="py-name" href="#" onclick="return doclink('link-7', 'SORT_METHOD_DATE', 'link-7');">SORT_METHOD_DATE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">3</tt> </tt>
+<a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line"><tt id="link-8" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_DATEADDED=xbmcplugin-module.html#SORT_METHOD_DATEADDED"><a title="xbmcplugin.SORT_METHOD_DATEADDED" class="py-name" href="#" onclick="return doclink('link-8', 'SORT_METHOD_DATEADDED', 'link-8');">SORT_METHOD_DATEADDED</a></tt> <tt class="py-op">=</tt> <tt class="py-number">19</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line"><tt id="link-9" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_DATE_TAKEN=xbmcplugin-module.html#SORT_METHOD_DATE_TAKEN"><a title="xbmcplugin.SORT_METHOD_DATE_TAKEN" class="py-name" href="#" onclick="return doclink('link-9', 'SORT_METHOD_DATE_TAKEN', 'link-9');">SORT_METHOD_DATE_TAKEN</a></tt> <tt class="py-op">=</tt> <tt class="py-number">41</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line"><tt id="link-10" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_DRIVE_TYPE=xbmcplugin-module.html#SORT_METHOD_DRIVE_TYPE"><a title="xbmcplugin.SORT_METHOD_DRIVE_TYPE" class="py-name" href="#" onclick="return doclink('link-10', 'SORT_METHOD_DRIVE_TYPE', 'link-10');">SORT_METHOD_DRIVE_TYPE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">6</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line"><tt id="link-11" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_DURATION=xbmcplugin-module.html#SORT_METHOD_DURATION"><a title="xbmcplugin.SORT_METHOD_DURATION" class="py-name" href="#" onclick="return doclink('link-11', 'SORT_METHOD_DURATION', 'link-11');">SORT_METHOD_DURATION</a></tt> <tt class="py-op">=</tt> <tt class="py-number">8</tt> </tt>
+<a name="L20"></a><tt class="py-lineno"> 20</tt>  <tt class="py-line"><tt id="link-12" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_EPISODE=xbmcplugin-module.html#SORT_METHOD_EPISODE"><a title="xbmcplugin.SORT_METHOD_EPISODE" class="py-name" href="#" onclick="return doclink('link-12', 'SORT_METHOD_EPISODE', 'link-12');">SORT_METHOD_EPISODE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">22</tt> </tt>
+<a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line"><tt id="link-13" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_FILE=xbmcplugin-module.html#SORT_METHOD_FILE"><a title="xbmcplugin.SORT_METHOD_FILE" class="py-name" href="#" onclick="return doclink('link-13', 'SORT_METHOD_FILE', 'link-13');">SORT_METHOD_FILE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">5</tt> </tt>
+<a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line"><tt id="link-14" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_FULLPATH=xbmcplugin-module.html#SORT_METHOD_FULLPATH"><a title="xbmcplugin.SORT_METHOD_FULLPATH" class="py-name" href="#" onclick="return doclink('link-14', 'SORT_METHOD_FULLPATH', 'link-14');">SORT_METHOD_FULLPATH</a></tt> <tt class="py-op">=</tt> <tt class="py-number">32</tt> </tt>
+<a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line"><tt id="link-15" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_GENRE=xbmcplugin-module.html#SORT_METHOD_GENRE"><a title="xbmcplugin.SORT_METHOD_GENRE" class="py-name" href="#" onclick="return doclink('link-15', 'SORT_METHOD_GENRE', 'link-15');">SORT_METHOD_GENRE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">15</tt> </tt>
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line"><tt id="link-16" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_LABEL=xbmcplugin-module.html#SORT_METHOD_LABEL"><a title="xbmcplugin.SORT_METHOD_LABEL" class="py-name" href="#" onclick="return doclink('link-16', 'SORT_METHOD_LABEL', 'link-16');">SORT_METHOD_LABEL</a></tt> <tt class="py-op">=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line"><tt id="link-17" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_LABEL_IGNORE_FOLDERS=xbmcplugin-module.html#SORT_METHOD_LABEL_IGNORE_FOLDERS"><a title="xbmcplugin.SORT_METHOD_LABEL_IGNORE_FOLDERS" class="py-name" href="#" onclick="return doclink('link-17', 'SORT_METHOD_LABEL_IGNORE_FOLDERS', 'link-17');">SORT_METHOD_LABEL_IGNORE_FOLDERS</a></tt> <tt class="py-op">=</tt> <tt class="py-number">33</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line"><tt id="link-18" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_LABEL_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-18', 'SORT_METHOD_LABEL_IGNORE_THE', 'link-18');">SORT_METHOD_LABEL_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">2</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line"><tt id="link-19" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_LASTPLAYED=xbmcplugin-module.html#SORT_METHOD_LASTPLAYED"><a title="xbmcplugin.SORT_METHOD_LASTPLAYED" class="py-name" href="#" onclick="return doclink('link-19', 'SORT_METHOD_LASTPLAYED', 'link-19');">SORT_METHOD_LASTPLAYED</a></tt> <tt class="py-op">=</tt> <tt class="py-number">34</tt> </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line"><tt id="link-20" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_LISTENERS=xbmcplugin-module.html#SORT_METHOD_LISTENERS"><a title="xbmcplugin.SORT_METHOD_LISTENERS" class="py-name" href="#" onclick="return doclink('link-20', 'SORT_METHOD_LISTENERS', 'link-20');">SORT_METHOD_LISTENERS</a></tt> <tt class="py-op">=</tt> <tt class="py-number">36</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line"><tt id="link-21" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_MPAA_RATING=xbmcplugin-module.html#SORT_METHOD_MPAA_RATING"><a title="xbmcplugin.SORT_METHOD_MPAA_RATING" class="py-name" href="#" onclick="return doclink('link-21', 'SORT_METHOD_MPAA_RATING', 'link-21');">SORT_METHOD_MPAA_RATING</a></tt> <tt class="py-op">=</tt> <tt class="py-number">28</tt> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line"><tt id="link-22" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_NONE=xbmcplugin-module.html#SORT_METHOD_NONE"><a title="xbmcplugin.SORT_METHOD_NONE" class="py-name" href="#" onclick="return doclink('link-22', 'SORT_METHOD_NONE', 'link-22');">SORT_METHOD_NONE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">0</tt> </tt>
+<a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"><tt id="link-23" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_PLAYCOUNT=xbmcplugin-module.html#SORT_METHOD_PLAYCOUNT"><a title="xbmcplugin.SORT_METHOD_PLAYCOUNT" class="py-name" href="#" onclick="return doclink('link-23', 'SORT_METHOD_PLAYCOUNT', 'link-23');">SORT_METHOD_PLAYCOUNT</a></tt> <tt class="py-op">=</tt> <tt class="py-number">35</tt> </tt>
+<a name="L32"></a><tt class="py-lineno"> 32</tt>  <tt class="py-line"><tt id="link-24" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_PLAYLIST_ORDER=xbmcplugin-module.html#SORT_METHOD_PLAYLIST_ORDER"><a title="xbmcplugin.SORT_METHOD_PLAYLIST_ORDER" class="py-name" href="#" onclick="return doclink('link-24', 'SORT_METHOD_PLAYLIST_ORDER', 'link-24');">SORT_METHOD_PLAYLIST_ORDER</a></tt> <tt class="py-op">=</tt> <tt class="py-number">21</tt> </tt>
+<a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line"><tt id="link-25" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_PRODUCTIONCODE=xbmcplugin-module.html#SORT_METHOD_PRODUCTIONCODE"><a title="xbmcplugin.SORT_METHOD_PRODUCTIONCODE" class="py-name" href="#" onclick="return doclink('link-25', 'SORT_METHOD_PRODUCTIONCODE', 'link-25');">SORT_METHOD_PRODUCTIONCODE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">26</tt> </tt>
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line"><tt id="link-26" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_PROGRAM_COUNT=xbmcplugin-module.html#SORT_METHOD_PROGRAM_COUNT"><a title="xbmcplugin.SORT_METHOD_PROGRAM_COUNT" class="py-name" href="#" onclick="return doclink('link-26', 'SORT_METHOD_PROGRAM_COUNT', 'link-26');">SORT_METHOD_PROGRAM_COUNT</a></tt> <tt class="py-op">=</tt> <tt class="py-number">20</tt> </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line"><tt id="link-27" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_SIZE=xbmcplugin-module.html#SORT_METHOD_SIZE"><a title="xbmcplugin.SORT_METHOD_SIZE" class="py-name" href="#" onclick="return doclink('link-27', 'SORT_METHOD_SIZE', 'link-27');">SORT_METHOD_SIZE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">4</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line"><tt id="link-28" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_SONG_RATING=xbmcplugin-module.html#SORT_METHOD_SONG_RATING"><a title="xbmcplugin.SORT_METHOD_SONG_RATING" class="py-name" href="#" onclick="return doclink('link-28', 'SORT_METHOD_SONG_RATING', 'link-28');">SORT_METHOD_SONG_RATING</a></tt> <tt class="py-op">=</tt> <tt class="py-number">27</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line"><tt id="link-29" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_STUDIO=xbmcplugin-module.html#SORT_METHOD_STUDIO"><a title="xbmcplugin.SORT_METHOD_STUDIO" class="py-name" href="#" onclick="return doclink('link-29', 'SORT_METHOD_STUDIO', 'link-29');">SORT_METHOD_STUDIO</a></tt> <tt class="py-op">=</tt> <tt class="py-number">30</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line"><tt id="link-30" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_STUDIO_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_STUDIO_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_STUDIO_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-30', 'SORT_METHOD_STUDIO_IGNORE_THE', 'link-30');">SORT_METHOD_STUDIO_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">31</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line"><tt id="link-31" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_TITLE=xbmcplugin-module.html#SORT_METHOD_TITLE"><a title="xbmcplugin.SORT_METHOD_TITLE" class="py-name" href="#" onclick="return doclink('link-31', 'SORT_METHOD_TITLE', 'link-31');">SORT_METHOD_TITLE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">9</tt> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line"><tt id="link-32" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_TITLE_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_TITLE_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_TITLE_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-32', 'SORT_METHOD_TITLE_IGNORE_THE', 'link-32');">SORT_METHOD_TITLE_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">10</tt> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line"><tt id="link-33" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_TRACKNUM=xbmcplugin-module.html#SORT_METHOD_TRACKNUM"><a title="xbmcplugin.SORT_METHOD_TRACKNUM" class="py-name" href="#" onclick="return doclink('link-33', 'SORT_METHOD_TRACKNUM', 'link-33');">SORT_METHOD_TRACKNUM</a></tt> <tt class="py-op">=</tt> <tt class="py-number">7</tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line"><tt id="link-34" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_UNSORTED=xbmcplugin-module.html#SORT_METHOD_UNSORTED"><a title="xbmcplugin.SORT_METHOD_UNSORTED" class="py-name" href="#" onclick="return doclink('link-34', 'SORT_METHOD_UNSORTED', 'link-34');">SORT_METHOD_UNSORTED</a></tt> <tt class="py-op">=</tt> <tt class="py-number">37</tt> </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line"><tt id="link-35" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_RATING=xbmcplugin-module.html#SORT_METHOD_VIDEO_RATING"><a title="xbmcplugin.SORT_METHOD_VIDEO_RATING" class="py-name" href="#" onclick="return doclink('link-35', 'SORT_METHOD_VIDEO_RATING', 'link-35');">SORT_METHOD_VIDEO_RATING</a></tt> <tt class="py-op">=</tt> <tt class="py-number">18</tt> </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line"><tt id="link-36" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_RUNTIME=xbmcplugin-module.html#SORT_METHOD_VIDEO_RUNTIME"><a title="xbmcplugin.SORT_METHOD_VIDEO_RUNTIME" class="py-name" href="#" onclick="return doclink('link-36', 'SORT_METHOD_VIDEO_RUNTIME', 'link-36');">SORT_METHOD_VIDEO_RUNTIME</a></tt> <tt class="py-op">=</tt> <tt class="py-number">29</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line"><tt id="link-37" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_SORT_TITLE=xbmcplugin-module.html#SORT_METHOD_VIDEO_SORT_TITLE"><a title="xbmcplugin.SORT_METHOD_VIDEO_SORT_TITLE" class="py-name" href="#" onclick="return doclink('link-37', 'SORT_METHOD_VIDEO_SORT_TITLE', 'link-37');">SORT_METHOD_VIDEO_SORT_TITLE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">24</tt> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line"><tt id="link-38" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE=xbmcplugin-module.html#SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE"><a title="xbmcplugin.SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE" class="py-name" href="#" onclick="return doclink('link-38', 'SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE', 'link-38');">SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">25</tt> </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line"><tt id="link-39" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_TITLE=xbmcplugin-module.html#SORT_METHOD_VIDEO_TITLE"><a title="xbmcplugin.SORT_METHOD_VIDEO_TITLE" class="py-name" href="#" onclick="return doclink('link-39', 'SORT_METHOD_VIDEO_TITLE', 'link-39');">SORT_METHOD_VIDEO_TITLE</a></tt> <tt class="py-op">=</tt> <tt class="py-number">23</tt> </tt>
+<a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line"><tt id="link-40" class="py-name" targets="Variable xbmcplugin.SORT_METHOD_VIDEO_YEAR=xbmcplugin-module.html#SORT_METHOD_VIDEO_YEAR"><a title="xbmcplugin.SORT_METHOD_VIDEO_YEAR" class="py-name" href="#" onclick="return doclink('link-40', 'SORT_METHOD_VIDEO_YEAR', 'link-40');">SORT_METHOD_VIDEO_YEAR</a></tt> <tt class="py-op">=</tt> <tt class="py-number">17</tt> </tt>
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line"><tt class="py-name">__author__</tt> <tt class="py-op">=</tt> <tt class="py-string">'Team Kodi &lt;http://kodi.tv&gt;'</tt> </tt>
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line"><tt id="link-41" class="py-name" targets="Variable xbmc.__credits__=xbmc-module.html#__credits__,Variable xbmcaddon.__credits__=xbmcaddon-module.html#__credits__,Variable xbmcgui.__credits__=xbmcgui-module.html#__credits__,Variable xbmcplugin.__credits__=xbmcplugin-module.html#__credits__,Variable xbmcvfs.__credits__=xbmcvfs-module.html#__credits__"><a title="xbmc.__credits__
+xbmcaddon.__credits__
+xbmcgui.__credits__
+xbmcplugin.__credits__
+xbmcvfs.__credits__" class="py-name" href="#" onclick="return doclink('link-41', '__credits__', 'link-41');">__credits__</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'Team Kodi'</tt> </tt>
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line"><tt class="py-name">__date__</tt> <tt class="py-op">=</tt> <tt class="py-string">'Fri May 01 16:22:19 BST 2015'</tt> </tt>
+<a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line"><tt id="link-42" class="py-name" targets="Variable xbmc.__platform__=xbmc-module.html#__platform__,Variable xbmcaddon.__platform__=xbmcaddon-module.html#__platform__,Variable xbmcgui.__platform__=xbmcgui-module.html#__platform__,Variable xbmcplugin.__platform__=xbmcplugin-module.html#__platform__,Variable xbmcvfs.__platform__=xbmcvfs-module.html#__platform__"><a title="xbmc.__platform__
+xbmcaddon.__platform__
+xbmcgui.__platform__
+xbmcplugin.__platform__
+xbmcvfs.__platform__" class="py-name" href="#" onclick="return doclink('link-42', '__platform__', 'link-42');">__platform__</a></tt> <tt class="py-op">=</tt> <tt class="py-string">'ALL'</tt> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line"><tt class="py-name">__version__</tt> <tt class="py-op">=</tt> <tt class="py-string">'2.20.0'</tt> </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line"> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line"> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line"> </tt>
+<a name="addDirectoryItem"></a><div id="addDirectoryItem-def"><a name="L57"></a><tt class="py-lineno"> 57</tt> <a class="py-toggle" href="#" id="addDirectoryItem-toggle" onclick="return toggle('addDirectoryItem');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#addDirectoryItem">addDirectoryItem</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">url</tt><tt class="py-op">,</tt> <tt class="py-param">listitem</tt><tt class="py-op">,</tt> <tt class="py-param">isFolder</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-param">totalItems</tt><tt class="py-op">=</tt><tt class="py-number">0</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="addDirectoryItem-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="addDirectoryItem-expanded"><a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">    <tt class="py-docstring">"""Callback function to pass directory contents back to XBMC.</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line"><tt class="py-docstring">    Returns a bool for successful completion.</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line"><tt class="py-docstring">    url: string - url of the entry. would be plugin:// for another virtual directory.</tt> </tt>
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line"><tt class="py-docstring">    listitem: ListItem - item to add.</tt> </tt>
+<a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line"><tt class="py-docstring">    isFolder: bool - True=folder / False=not a folder.</tt> </tt>
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line"><tt class="py-docstring">    totalItems: integer - total number of items that will be passed. (used for progressbar)</tt> </tt>
+<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line"><tt class="py-docstring">        if not xbmcplugin.addDirectoryItem(int(sys.argv[1]), 'F:\\Trailers\\300.mov', listitem, totalItems=50):</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line"><tt class="py-docstring">            break</tt> </tt>
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">bool</tt> </tt>
+</div><a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line"> </tt>
+<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line"> </tt>
+<a name="addDirectoryItems"></a><div id="addDirectoryItems-def"><a name="L75"></a><tt class="py-lineno"> 75</tt> <a class="py-toggle" href="#" id="addDirectoryItems-toggle" onclick="return toggle('addDirectoryItems');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#addDirectoryItems">addDirectoryItems</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">items</tt><tt class="py-op">,</tt> <tt class="py-param">totalItems</tt><tt class="py-op">=</tt><tt class="py-number">0</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="addDirectoryItems-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="addDirectoryItems-expanded"><a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">    <tt class="py-docstring">"""Callback function to pass directory contents back to XBMC as a list.</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line"><tt class="py-docstring">    Returns a bool for successful completion.</tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line"><tt class="py-docstring">    items: List - list of (url, listitem[, isFolder]) as a tuple to add.</tt> </tt>
+<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"><tt class="py-docstring">    totalItems: integer - total number of items that will be passed. (used for progressbar)</tt> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line"><tt class="py-docstring">    Note:</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line"><tt class="py-docstring">        Large lists benefit over using the standard addDirectoryItem().</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line"><tt class="py-docstring">        You may call this more than once to add items in chunks.</tt> </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line"><tt class="py-docstring">        if not xbmcplugin.addDirectoryItems(int(sys.argv[1]), [(url, listitem, False,)]:</tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line"><tt class="py-docstring">            raise</tt> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">bool</tt> </tt>
+</div><a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line"> </tt>
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"> </tt>
+<a name="endOfDirectory"></a><div id="endOfDirectory-def"><a name="L95"></a><tt class="py-lineno"> 95</tt> <a class="py-toggle" href="#" id="endOfDirectory-toggle" onclick="return toggle('endOfDirectory');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#endOfDirectory">endOfDirectory</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">succeeded</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-param">updateListing</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-param">cacheToDisc</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="endOfDirectory-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="endOfDirectory-expanded"><a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line">    <tt class="py-docstring">"""Callback function to tell XBMC that the end of the directory listing in a virtualPythonFolder module is reached.</tt> </tt>
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"><tt class="py-docstring">    succeeded: bool - True=script completed successfully/False=Script did not.</tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line"><tt class="py-docstring">    updateListing: bool - True=this folder should update the current listing/False=Folder is a subfolder.</tt> </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line"><tt class="py-docstring">    cacheToDisc: bool - True=Folder will cache if extended time/False=this folder will never cache to disc.</tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)</tt> </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line"> </tt>
+<a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line"><tt class="py-comment">#noinspection PyUnusedLocal</tt> </tt>
+<a name="setResolvedUrl"></a><div id="setResolvedUrl-def"><a name="L109"></a><tt class="py-lineno">109</tt> <a class="py-toggle" href="#" id="setResolvedUrl-toggle" onclick="return toggle('setResolvedUrl');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setResolvedUrl">setResolvedUrl</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">succeeded</tt><tt class="py-op">,</tt> <tt class="py-param">listitem</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setResolvedUrl-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setResolvedUrl-expanded"><a name="L110"></a><tt class="py-lineno">110</tt>  <tt class="py-line">    <tt class="py-docstring">"""Callback function to tell XBMC that the file plugin has been resolved to a url</tt> </tt>
+<a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line"><tt class="py-docstring">    succeeded: bool - True=script completed successfully/False=Script did not.</tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line"><tt class="py-docstring">    listitem: ListItem - item the file plugin resolved to for playback.</tt> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line"> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line"> </tt>
+<a name="addSortMethod"></a><div id="addSortMethod-def"><a name="L122"></a><tt class="py-lineno">122</tt> <a class="py-toggle" href="#" id="addSortMethod-toggle" onclick="return toggle('addSortMethod');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#addSortMethod">addSortMethod</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">sortMethod</tt><tt class="py-op">,</tt> <tt class="py-param">label2Mask</tt><tt class="py-op">=</tt><tt class="py-string">''</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="addSortMethod-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="addSortMethod-expanded"><a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line">    <tt class="py-docstring">"""Adds a sorting method for the media list.</tt> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line"><tt class="py-docstring">    sortMethod: integer - number for sortmethod see FileItem.h.</tt> </tt>
+<a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line"><tt class="py-docstring">    label2Mask: string - the label mask to use for the second label.  Defaults to '%D'</tt> </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line"><tt class="py-docstring">        applies to: SORT_METHOD_NONE, SORT_METHOD_UNSORTED, SORT_METHOD_VIDEO_TITLE,</tt> </tt>
+<a name="L129"></a><tt class="py-lineno">129</tt>  <tt class="py-line"><tt class="py-docstring">        SORT_METHOD_TRACKNUM, SORT_METHOD_FILE, SORT_METHOD_TITLE</tt> </tt>
+<a name="L130"></a><tt class="py-lineno">130</tt>  <tt class="py-line"><tt class="py-docstring">        SORT_METHOD_TITLE_IGNORE_THE, SORT_METHOD_LABEL</tt> </tt>
+<a name="L131"></a><tt class="py-lineno">131</tt>  <tt class="py-line"><tt class="py-docstring">        SORT_METHOD_LABEL_IGNORE_THE</tt> </tt>
+<a name="L132"></a><tt class="py-lineno">132</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L133"></a><tt class="py-lineno">133</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L134"></a><tt class="py-lineno">134</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_TITLE)</tt> </tt>
+<a name="L135"></a><tt class="py-lineno">135</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L136"></a><tt class="py-lineno">136</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L137"></a><tt class="py-lineno">137</tt>  <tt class="py-line"> </tt>
+<a name="L138"></a><tt class="py-lineno">138</tt>  <tt class="py-line"> </tt>
+<a name="getSetting"></a><div id="getSetting-def"><a name="L139"></a><tt class="py-lineno">139</tt> <a class="py-toggle" href="#" id="getSetting-toggle" onclick="return toggle('getSetting');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#getSetting">getSetting</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">id</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="getSetting-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="getSetting-expanded"><a name="L140"></a><tt class="py-lineno">140</tt>  <tt class="py-line">    <tt class="py-docstring">"""Returns the value of a setting as a string.</tt> </tt>
+<a name="L141"></a><tt class="py-lineno">141</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L142"></a><tt class="py-lineno">142</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L143"></a><tt class="py-lineno">143</tt>  <tt class="py-line"><tt class="py-docstring">    id: string - id of the setting that the module needs to access.</tt> </tt>
+<a name="L144"></a><tt class="py-lineno">144</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L145"></a><tt class="py-lineno">145</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L146"></a><tt class="py-lineno">146</tt>  <tt class="py-line"><tt class="py-docstring">        apikey = xbmcplugin.getSetting(int(sys.argv[1]), 'apikey')</tt> </tt>
+<a name="L147"></a><tt class="py-lineno">147</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L148"></a><tt class="py-lineno">148</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">str</tt> </tt>
+</div><a name="L149"></a><tt class="py-lineno">149</tt>  <tt class="py-line"> </tt>
+<a name="L150"></a><tt class="py-lineno">150</tt>  <tt class="py-line"> </tt>
+<a name="setSetting"></a><div id="setSetting-def"><a name="L151"></a><tt class="py-lineno">151</tt> <a class="py-toggle" href="#" id="setSetting-toggle" onclick="return toggle('setSetting');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setSetting">setSetting</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">id</tt><tt class="py-op">,</tt> <tt class="py-param">value</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setSetting-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setSetting-expanded"><a name="L152"></a><tt class="py-lineno">152</tt>  <tt class="py-line">    <tt class="py-docstring">"""Sets a plugin setting for the current running plugin.</tt> </tt>
+<a name="L153"></a><tt class="py-lineno">153</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L154"></a><tt class="py-lineno">154</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L155"></a><tt class="py-lineno">155</tt>  <tt class="py-line"><tt class="py-docstring">    id: string - id of the setting that the module needs to access.</tt> </tt>
+<a name="L156"></a><tt class="py-lineno">156</tt>  <tt class="py-line"><tt class="py-docstring">    value: string or unicode - value of the setting.</tt> </tt>
+<a name="L157"></a><tt class="py-lineno">157</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L158"></a><tt class="py-lineno">158</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L159"></a><tt class="py-lineno">159</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setSetting(int(sys.argv[1]), id='username', value='teamxbmc')</tt> </tt>
+<a name="L160"></a><tt class="py-lineno">160</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L161"></a><tt class="py-lineno">161</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L162"></a><tt class="py-lineno">162</tt>  <tt class="py-line"> </tt>
+<a name="L163"></a><tt class="py-lineno">163</tt>  <tt class="py-line"> </tt>
+<a name="setContent"></a><div id="setContent-def"><a name="L164"></a><tt class="py-lineno">164</tt> <a class="py-toggle" href="#" id="setContent-toggle" onclick="return toggle('setContent');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setContent">setContent</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">content</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setContent-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setContent-expanded"><a name="L165"></a><tt class="py-lineno">165</tt>  <tt class="py-line">    <tt class="py-docstring">"""Sets the plugins content.</tt> </tt>
+<a name="L166"></a><tt class="py-lineno">166</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L167"></a><tt class="py-lineno">167</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L168"></a><tt class="py-lineno">168</tt>  <tt class="py-line"><tt class="py-docstring">    content: string - content type (eg. movies).</tt> </tt>
+<a name="L169"></a><tt class="py-lineno">169</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L170"></a><tt class="py-lineno">170</tt>  <tt class="py-line"><tt class="py-docstring">    Note:</tt> </tt>
+<a name="L171"></a><tt class="py-lineno">171</tt>  <tt class="py-line"><tt class="py-docstring">        Possible values for content: files, songs, artists, albums, movies, tvshows, episodes, musicvideos</tt> </tt>
+<a name="L172"></a><tt class="py-lineno">172</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L173"></a><tt class="py-lineno">173</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L174"></a><tt class="py-lineno">174</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setContent(int(sys.argv[1]), 'movies')</tt> </tt>
+<a name="L175"></a><tt class="py-lineno">175</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L176"></a><tt class="py-lineno">176</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L177"></a><tt class="py-lineno">177</tt>  <tt class="py-line"> </tt>
+<a name="L178"></a><tt class="py-lineno">178</tt>  <tt class="py-line"> </tt>
+<a name="setPluginCategory"></a><div id="setPluginCategory-def"><a name="L179"></a><tt class="py-lineno">179</tt> <a class="py-toggle" href="#" id="setPluginCategory-toggle" onclick="return toggle('setPluginCategory');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setPluginCategory">setPluginCategory</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">category</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setPluginCategory-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setPluginCategory-expanded"><a name="L180"></a><tt class="py-lineno">180</tt>  <tt class="py-line">    <tt class="py-docstring">"""Sets the plugins name for skins to display.</tt> </tt>
+<a name="L181"></a><tt class="py-lineno">181</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L182"></a><tt class="py-lineno">182</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L183"></a><tt class="py-lineno">183</tt>  <tt class="py-line"><tt class="py-docstring">    category: string or unicode - plugins sub category.</tt> </tt>
+<a name="L184"></a><tt class="py-lineno">184</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L185"></a><tt class="py-lineno">185</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L186"></a><tt class="py-lineno">186</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setPluginCategory(int(sys.argv[1]), 'Comedy')</tt> </tt>
+<a name="L187"></a><tt class="py-lineno">187</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L188"></a><tt class="py-lineno">188</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L189"></a><tt class="py-lineno">189</tt>  <tt class="py-line"> </tt>
+<a name="L190"></a><tt class="py-lineno">190</tt>  <tt class="py-line"> </tt>
+<a name="setPluginFanart"></a><div id="setPluginFanart-def"><a name="L191"></a><tt class="py-lineno">191</tt> <a class="py-toggle" href="#" id="setPluginFanart-toggle" onclick="return toggle('setPluginFanart');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setPluginFanart">setPluginFanart</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">image</tt><tt class="py-op">=</tt><tt class="py-name">None</tt><tt class="py-op">,</tt> <tt class="py-param">color1</tt><tt class="py-op">=</tt><tt class="py-name">None</tt><tt class="py-op">,</tt> <tt class="py-param">color2</tt><tt class="py-op">=</tt><tt class="py-name">None</tt><tt class="py-op">,</tt> <tt class="py-param">color3</tt><tt class="py-op">=</tt><tt class="py-name">None</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setPluginFanart-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setPluginFanart-expanded"><a name="L192"></a><tt class="py-lineno">192</tt>  <tt class="py-line">    <tt class="py-docstring">"""Sets the plugins fanart and color for skins to display.</tt> </tt>
+<a name="L193"></a><tt class="py-lineno">193</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L194"></a><tt class="py-lineno">194</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.\n"</tt> </tt>
+<a name="L195"></a><tt class="py-lineno">195</tt>  <tt class="py-line"><tt class="py-docstring">    image: string - path to fanart image.</tt> </tt>
+<a name="L196"></a><tt class="py-lineno">196</tt>  <tt class="py-line"><tt class="py-docstring">    color1: hexstring - color1. (e.g. '0xFFFFFFFF')</tt> </tt>
+<a name="L197"></a><tt class="py-lineno">197</tt>  <tt class="py-line"><tt class="py-docstring">    color2: hexstring - color2. (e.g. '0xFFFF3300')</tt> </tt>
+<a name="L198"></a><tt class="py-lineno">198</tt>  <tt class="py-line"><tt class="py-docstring">    color3: hexstring - color3. (e.g. '0xFF000000')</tt> </tt>
+<a name="L199"></a><tt class="py-lineno">199</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L200"></a><tt class="py-lineno">200</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L201"></a><tt class="py-lineno">201</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setPluginFanart(int(sys.argv[1]), 'special://home/addons/plugins/video/Apple movie trailers II/fanart.png', color2='0xFFFF3300')</tt> </tt>
+<a name="L202"></a><tt class="py-lineno">202</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L203"></a><tt class="py-lineno">203</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L204"></a><tt class="py-lineno">204</tt>  <tt class="py-line"> </tt>
+<a name="L205"></a><tt class="py-lineno">205</tt>  <tt class="py-line"> </tt>
+<a name="setProperty"></a><div id="setProperty-def"><a name="L206"></a><tt class="py-lineno">206</tt> <a class="py-toggle" href="#" id="setProperty-toggle" onclick="return toggle('setProperty');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="xbmcplugin-module.html#setProperty">setProperty</a><tt class="py-op">(</tt><tt class="py-param">handle</tt><tt class="py-op">,</tt> <tt class="py-param">key</tt><tt class="py-op">,</tt> <tt class="py-param">value</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="setProperty-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="setProperty-expanded"><a name="L207"></a><tt class="py-lineno">207</tt>  <tt class="py-line">    <tt class="py-docstring">"""Sets a container property for this plugin.</tt> </tt>
+<a name="L208"></a><tt class="py-lineno">208</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L209"></a><tt class="py-lineno">209</tt>  <tt class="py-line"><tt class="py-docstring">    handle: integer - handle the plugin was started with.</tt> </tt>
+<a name="L210"></a><tt class="py-lineno">210</tt>  <tt class="py-line"><tt class="py-docstring">    key: string - property name.</tt> </tt>
+<a name="L211"></a><tt class="py-lineno">211</tt>  <tt class="py-line"><tt class="py-docstring">    value: string or unicode - value of property.</tt> </tt>
+<a name="L212"></a><tt class="py-lineno">212</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L213"></a><tt class="py-lineno">213</tt>  <tt class="py-line"><tt class="py-docstring">    Note:</tt> </tt>
+<a name="L214"></a><tt class="py-lineno">214</tt>  <tt class="py-line"><tt class="py-docstring">        Key is NOT case sensitive.</tt> </tt>
+<a name="L215"></a><tt class="py-lineno">215</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L216"></a><tt class="py-lineno">216</tt>  <tt class="py-line"><tt class="py-docstring">    Example:</tt> </tt>
+<a name="L217"></a><tt class="py-lineno">217</tt>  <tt class="py-line"><tt class="py-docstring">        xbmcplugin.setProperty(int(sys.argv[1]), 'Emulator', 'M.A.M.E.')</tt> </tt>
+<a name="L218"></a><tt class="py-lineno">218</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L219"></a><tt class="py-lineno">219</tt>  <tt class="py-line">    <tt class="py-keyword">pass</tt> </tt>
+</div><a name="L220"></a><tt class="py-lineno">220</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.kodi.tv">Kodi Python API modules</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Jun 25 17:27:11 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

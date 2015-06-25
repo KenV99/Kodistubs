@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>xbmcplugin</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.kodi.tv">Kodi Python API modules</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;xbmcplugin
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module xbmcplugin</h1><p class="nomargin-top"></p>
+<pre class="literalblock">
+
+Functions for Kodi plugins
+
+</pre>
+
+<hr />
+<div class="fields">      <p><strong>Version:</strong>
+        2.20.0
+      </p>
+      <p><strong>Date:</strong>
+        Fri May 01 16:22:19 BST 2015
+      </p>
+      <p><strong>Author:</strong>
+        Team Kodi &lt;http://kodi.tv&gt;
+      </p>
+</div><!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#addDirectoryItem" class="summary-sig-name">addDirectoryItem</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">url</span>,
+        <span class="summary-sig-arg">listitem</span>,
+        <span class="summary-sig-arg">isFolder</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">totalItems</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Callback function to pass directory contents back to XBMC.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#addDirectoryItems" class="summary-sig-name">addDirectoryItems</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">items</span>,
+        <span class="summary-sig-arg">totalItems</span>=<span class="summary-sig-default">0</span>)</span><br />
+      Callback function to pass directory contents back to XBMC as a list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#endOfDirectory" class="summary-sig-name">endOfDirectory</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">succeeded</span>=<span class="summary-sig-default">True</span>,
+        <span class="summary-sig-arg">updateListing</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">cacheToDisc</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Callback function to tell XBMC that the end of the directory listing in a virtualPythonFolder module is reached.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setResolvedUrl" class="summary-sig-name">setResolvedUrl</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">succeeded</span>,
+        <span class="summary-sig-arg">listitem</span>)</span><br />
+      Callback function to tell XBMC that the file plugin has been resolved to a url</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#addSortMethod" class="summary-sig-name">addSortMethod</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">sortMethod</span>,
+        <span class="summary-sig-arg">label2Mask</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string"></code><code class="variable-quote">'</code></span>)</span><br />
+      Adds a sorting method for the media list.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#getSetting" class="summary-sig-name">getSetting</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">id</span>)</span><br />
+      Returns the value of a setting as a string.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setSetting" class="summary-sig-name">setSetting</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">id</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Sets a plugin setting for the current running plugin.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setContent" class="summary-sig-name">setContent</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">content</span>)</span><br />
+      Sets the plugins content.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setPluginCategory" class="summary-sig-name">setPluginCategory</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">category</span>)</span><br />
+      Sets the plugins name for skins to display.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setPluginFanart" class="summary-sig-name">setPluginFanart</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">image</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">color1</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">color2</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">color3</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets the plugins fanart and color for skins to display.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xbmcplugin-module.html#setProperty" class="summary-sig-name">setProperty</a>(<span class="summary-sig-arg">handle</span>,
+        <span class="summary-sig-arg">key</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Sets a container property for this plugin.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_ALBUM"></a><span class="summary-name">SORT_METHOD_ALBUM</span> = <code title="13">13</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_ALBUM_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_ALBUM_IGNORE_THE</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_ARTIST"></a><span class="summary-name">SORT_METHOD_ARTIST</span> = <code title="11">11</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_ARTIST_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_ARTIST_IGNORE_THE</span> = <code title="12">12</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_BITRATE"></a><span class="summary-name">SORT_METHOD_BITRATE</span> = <code title="40">40</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_CHANNEL"></a><span class="summary-name">SORT_METHOD_CHANNEL</span> = <code title="38">38</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_COUNTRY"></a><span class="summary-name">SORT_METHOD_COUNTRY</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_DATE"></a><span class="summary-name">SORT_METHOD_DATE</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_DATEADDED"></a><span class="summary-name">SORT_METHOD_DATEADDED</span> = <code title="19">19</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_DATE_TAKEN"></a><span class="summary-name">SORT_METHOD_DATE_TAKEN</span> = <code title="41">41</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_DRIVE_TYPE"></a><span class="summary-name">SORT_METHOD_DRIVE_TYPE</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_DURATION"></a><span class="summary-name">SORT_METHOD_DURATION</span> = <code title="8">8</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_EPISODE"></a><span class="summary-name">SORT_METHOD_EPISODE</span> = <code title="22">22</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_FILE"></a><span class="summary-name">SORT_METHOD_FILE</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_FULLPATH"></a><span class="summary-name">SORT_METHOD_FULLPATH</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_GENRE"></a><span class="summary-name">SORT_METHOD_GENRE</span> = <code title="15">15</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_LABEL"></a><span class="summary-name">SORT_METHOD_LABEL</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_LABEL_IGNORE_FOLDERS"></a><span class="summary-name">SORT_METHOD_LABEL_IGNORE_FOLDERS</span> = <code title="33">33</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_LABEL_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_LABEL_IGNORE_THE</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_LASTPLAYED"></a><span class="summary-name">SORT_METHOD_LASTPLAYED</span> = <code title="34">34</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_LISTENERS"></a><span class="summary-name">SORT_METHOD_LISTENERS</span> = <code title="36">36</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_MPAA_RATING"></a><span class="summary-name">SORT_METHOD_MPAA_RATING</span> = <code title="28">28</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_NONE"></a><span class="summary-name">SORT_METHOD_NONE</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_PLAYCOUNT"></a><span class="summary-name">SORT_METHOD_PLAYCOUNT</span> = <code title="35">35</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_PLAYLIST_ORDER"></a><span class="summary-name">SORT_METHOD_PLAYLIST_ORDER</span> = <code title="21">21</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_PRODUCTIONCODE"></a><span class="summary-name">SORT_METHOD_PRODUCTIONCODE</span> = <code title="26">26</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_PROGRAM_COUNT"></a><span class="summary-name">SORT_METHOD_PROGRAM_COUNT</span> = <code title="20">20</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_SIZE"></a><span class="summary-name">SORT_METHOD_SIZE</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_SONG_RATING"></a><span class="summary-name">SORT_METHOD_SONG_RATING</span> = <code title="27">27</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_STUDIO"></a><span class="summary-name">SORT_METHOD_STUDIO</span> = <code title="30">30</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_STUDIO_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_STUDIO_IGNORE_THE</span> = <code title="31">31</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_TITLE"></a><span class="summary-name">SORT_METHOD_TITLE</span> = <code title="9">9</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_TITLE_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_TITLE_IGNORE_THE</span> = <code title="10">10</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_TRACKNUM"></a><span class="summary-name">SORT_METHOD_TRACKNUM</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_UNSORTED"></a><span class="summary-name">SORT_METHOD_UNSORTED</span> = <code title="37">37</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_RATING"></a><span class="summary-name">SORT_METHOD_VIDEO_RATING</span> = <code title="18">18</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_RUNTIME"></a><span class="summary-name">SORT_METHOD_VIDEO_RUNTIME</span> = <code title="29">29</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_SORT_TITLE"></a><span class="summary-name">SORT_METHOD_VIDEO_SORT_TITLE</span> = <code title="24">24</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE"></a><span class="summary-name">SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE</span> = <code title="25">25</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_TITLE"></a><span class="summary-name">SORT_METHOD_VIDEO_TITLE</span> = <code title="23">23</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="SORT_METHOD_VIDEO_YEAR"></a><span class="summary-name">SORT_METHOD_VIDEO_YEAR</span> = <code title="17">17</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__credits__"></a><span class="summary-name">__credits__</span> = <code title="'Team Kodi'"><code class="variable-quote">'</code><code class="variable-string">Team Kodi</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__platform__"></a><span class="summary-name">__platform__</span> = <code title="'ALL'"><code class="variable-quote">'</code><code class="variable-string">ALL</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="addDirectoryItem"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">addDirectoryItem</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">url</span>,
+        <span class="sig-arg">listitem</span>,
+        <span class="sig-arg">isFolder</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">totalItems</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Callback function to pass directory contents back to XBMC.
+
+Returns a bool for successful completion.
+
+handle: integer - handle the plugin was started with.
+url: string - url of the entry. would be plugin:// for another virtual directory.
+listitem: ListItem - item to add.
+isFolder: bool - True=folder / False=not a folder.
+totalItems: integer - total number of items that will be passed. (used for progressbar)
+
+Example:
+    if not xbmcplugin.addDirectoryItem(int(sys.argv[1]), 'F:\Trailers\300.mov', listitem, totalItems=50):
+        break
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="addDirectoryItems"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">addDirectoryItems</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">items</span>,
+        <span class="sig-arg">totalItems</span>=<span class="sig-default">0</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Callback function to pass directory contents back to XBMC as a list.
+
+Returns a bool for successful completion.
+
+handle: integer - handle the plugin was started with.
+items: List - list of (url, listitem[, isFolder]) as a tuple to add.
+totalItems: integer - total number of items that will be passed. (used for progressbar)
+
+Note:
+    Large lists benefit over using the standard addDirectoryItem().
+    You may call this more than once to add items in chunks.
+
+Example:
+    if not xbmcplugin.addDirectoryItems(int(sys.argv[1]), [(url, listitem, False,)]:
+        raise
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="endOfDirectory"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">endOfDirectory</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">succeeded</span>=<span class="sig-default">True</span>,
+        <span class="sig-arg">updateListing</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">cacheToDisc</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Callback function to tell XBMC that the end of the directory listing in a virtualPythonFolder module is reached.
+
+handle: integer - handle the plugin was started with.
+succeeded: bool - True=script completed successfully/False=Script did not.
+updateListing: bool - True=this folder should update the current listing/False=Folder is a subfolder.
+cacheToDisc: bool - True=Folder will cache if extended time/False=this folder will never cache to disc.
+
+Example:
+    xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setResolvedUrl"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setResolvedUrl</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">succeeded</span>,
+        <span class="sig-arg">listitem</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Callback function to tell XBMC that the file plugin has been resolved to a url
+
+handle: integer - handle the plugin was started with.
+succeeded: bool - True=script completed successfully/False=Script did not.
+listitem: ListItem - item the file plugin resolved to for playback.
+
+Example:
+    xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="addSortMethod"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">addSortMethod</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">sortMethod</span>,
+        <span class="sig-arg">label2Mask</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string"></code><code class="variable-quote">'</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Adds a sorting method for the media list.
+
+handle: integer - handle the plugin was started with.
+sortMethod: integer - number for sortmethod see FileItem.h.
+label2Mask: string - the label mask to use for the second label.  Defaults to '%D'
+    applies to: SORT_METHOD_NONE, SORT_METHOD_UNSORTED, SORT_METHOD_VIDEO_TITLE,
+    SORT_METHOD_TRACKNUM, SORT_METHOD_FILE, SORT_METHOD_TITLE
+    SORT_METHOD_TITLE_IGNORE_THE, SORT_METHOD_LABEL
+    SORT_METHOD_LABEL_IGNORE_THE
+
+Example:
+    xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_TITLE)
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getSetting"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getSetting</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns the value of a setting as a string.
+
+handle: integer - handle the plugin was started with.
+id: string - id of the setting that the module needs to access.
+
+Example:
+    apikey = xbmcplugin.getSetting(int(sys.argv[1]), 'apikey')
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setSetting"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setSetting</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">id</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets a plugin setting for the current running plugin.
+
+handle: integer - handle the plugin was started with.
+id: string - id of the setting that the module needs to access.
+value: string or unicode - value of the setting.
+
+Example:
+    xbmcplugin.setSetting(int(sys.argv[1]), id='username', value='teamxbmc')
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setContent"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setContent</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">content</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the plugins content.
+
+handle: integer - handle the plugin was started with.
+content: string - content type (eg. movies).
+
+Note:
+    Possible values for content: files, songs, artists, albums, movies, tvshows, episodes, musicvideos
+
+Example:
+    xbmcplugin.setContent(int(sys.argv[1]), 'movies')
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setPluginCategory"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setPluginCategory</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">category</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the plugins name for skins to display.
+
+handle: integer - handle the plugin was started with.
+category: string or unicode - plugins sub category.
+
+Example:
+    xbmcplugin.setPluginCategory(int(sys.argv[1]), 'Comedy')
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setPluginFanart"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setPluginFanart</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">image</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">color1</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">color2</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">color3</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the plugins fanart and color for skins to display.
+
+    handle: integer - handle the plugin was started with.
+&quot;
+    image: string - path to fanart image.
+    color1: hexstring - color1. (e.g. '0xFFFFFFFF')
+    color2: hexstring - color2. (e.g. '0xFFFF3300')
+    color3: hexstring - color3. (e.g. '0xFF000000')
+
+    Example:
+        xbmcplugin.setPluginFanart(int(sys.argv[1]), 'special://home/addons/plugins/video/Apple movie trailers II/fanart.png', color2='0xFFFF3300')
+    
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setProperty"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setProperty</span>(<span class="sig-arg">handle</span>,
+        <span class="sig-arg">key</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets a container property for this plugin.
+
+handle: integer - handle the plugin was started with.
+key: string - property name.
+value: string or unicode - value of property.
+
+Note:
+    Key is NOT case sensitive.
+
+Example:
+    xbmcplugin.setProperty(int(sys.argv[1]), 'Emulator', 'M.A.M.E.')
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.kodi.tv">Kodi Python API modules</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Thu Jun 25 18:08:24 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
