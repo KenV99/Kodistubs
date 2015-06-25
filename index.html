@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Xbmcstubs : Stub python classes for script and adon development" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Xbmcstubs : Stub python classes for script and adon development">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -32,13 +32,29 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="xbmc-stubs" class="anchor" href="#xbmc-stubs"><span class="octicon octicon-link"></span></a>XBMC Stubs</h1>
+<a id="xbmc-stubs" class="anchor" href="#xbmc-stubs" aria-hidden="true"><span class="octicon octicon-link"></span></a>XBMC Stubs</h1>
 
-<p>These files may help you while developing a script or addon for <a href="http://xbmc.org/">XBMC</a>, since it will enable IDEs to perform auto completion of class and method names, and also provides you with the documentation for each class and method.</p>
+<p>These files can help you to develop a script or an addon for <a href="http://kodi.tv/">Kodi (XBMC)</a> Media Center.
+Use them in your favorite IDE to enable autocompletion of function, class and method names and access docstrings
+for each function, class and method.</p>
 
-<p>Typically you can add a "source directory" to your development project, and then point it to the folder containing the xbmcstubs files, and you will then be able to "import" the classes as you normally would in Python.</p>
+<p>Typically, a Python IDE (Integrated Development Environment) allows you add a "source directory" containing
+the xbmcstubs files to your development project. Then you will be able to "import" the modules as you normally would
+in Python.</p>
 
-<p>Auto-generated XBMC Python API documentation from xbmcstubs docstrings: <a href="http://romanvm.github.io/xbmcstubs/docs">http://romanvm.github.io/xbmcstubs/docs</a></p>
+<p>E.g. in <a href="https://www.jetbrains.com/pycharm/">PyCharm IDE</a> go to <strong>File</strong> &gt; <strong>Settings</strong> &gt; <strong>Project xxx</strong> &gt;
+<strong>Project Structure</strong>, click <strong>+ Add Content Root</strong> and select a folder with <strong>xbmcstubs</strong> files.
+Then you will get auto-completion, quick help and code inspection for Kodi Python API modules.</p>
+
+<p><strong>Warning</strong>: xbmcstubs are literally stubs and do not include any useful code,
+so don't try to run your program outside Kodi unless you add some testing code into xbmcstubs
+or use some mocking library to mock Kodi Pyhton API.</p>
+
+<p><a href="http://romanvm.github.io/xbmcstubs/docs">Auto-generated Kodi Python API documentation from xbmcstubs docstrings</a>.</p>
+
+<p><a href="http://forum.kodi.tv/showthread.php?tid=173780">Discussion topic on Kodi forum</a>.</p>
+
+<p>License: <a href="http://www.gnu.org/licenses/gpl.html">GPL v.3</a></p>
       </section>
     </div>
 
@@ -46,7 +62,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">Xbmcstubs maintained by <a href="https://github.com/romanvm">romanvm</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
