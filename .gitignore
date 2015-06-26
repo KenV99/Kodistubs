@@ -87,5 +87,6 @@ target/
 .rar
 .7z
 
-epydoc.*
+epydoc.cfg
+epydoc.cmd
 _docs/
