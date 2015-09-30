@@ -297,7 +297,6 @@ xbmcgui.INPUT_ALPHANUM	xbmcgui-module.html#INPUT_ALPHANUM
 xbmcgui.PASSWORD_VERIFY	xbmcgui-module.html#PASSWORD_VERIFY
 xbmcgui.ACTION_MOUSE_LONG_CLICK	xbmcgui-module.html#ACTION_MOUSE_LONG_CLICK
 xbmcgui.KEY_BUTTON_DPAD_DOWN	xbmcgui-module.html#KEY_BUTTON_DPAD_DOWN
-xbmcgui.unlock	xbmcgui-module.html#unlock
 xbmcgui.KEY_BUTTON_LEFT_THUMB_BUTTON	xbmcgui-module.html#KEY_BUTTON_LEFT_THUMB_BUTTON
 xbmcgui.ACTION_JUMP_SMS9	xbmcgui-module.html#ACTION_JUMP_SMS9
 xbmcgui.ACTION_JUMP_SMS8	xbmcgui-module.html#ACTION_JUMP_SMS8
@@ -313,7 +312,6 @@ xbmcgui.ACTION_ZOOM_OUT	xbmcgui-module.html#ACTION_ZOOM_OUT
 xbmcgui.ACTION_PLAYER_PLAYPAUSE	xbmcgui-module.html#ACTION_PLAYER_PLAYPAUSE
 xbmcgui.ACTION_ZOOM_LEVEL_4	xbmcgui-module.html#ACTION_ZOOM_LEVEL_4
 xbmcgui.KEY_BUTTON_RIGHT_THUMB_STICK	xbmcgui-module.html#KEY_BUTTON_RIGHT_THUMB_STICK
-xbmcgui.lock	xbmcgui-module.html#lock
 xbmcgui.ACTION_SHIFT	xbmcgui-module.html#ACTION_SHIFT
 xbmcgui.ACTION_PREV_PICTURE	xbmcgui-module.html#ACTION_PREV_PICTURE
 xbmcgui.ACTION_PLAY	xbmcgui-module.html#ACTION_PLAY
