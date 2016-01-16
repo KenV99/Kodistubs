@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Using Kodistubs &mdash; Kodistubs 2.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Kodistubs 2.0.0 documentation" href="index.html" />
+    <link rel="next" title="Kodi Python API" href="modules.html" />
+    <link rel="prev" title="Welcome to Kodistubs documentation!" href="index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="using-kodistubs">
+<h1>Using Kodistubs<a class="headerlink" href="#using-kodistubs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="writing-code">
+<h2>Writing Code<a class="headerlink" href="#writing-code" title="Permalink to this headline">¶</a></h2>
+<p>The main purpose of Kodistubs is to help you to write Kodi addon code in various IDEs
+(Integrated Development Environments) by providing code completion, quick help based on Kodistubs docstrings,
+and code inspection (linting) in IDEs that provide this feature.</p>
+<p>Below are the instructions for using Kodistubs in popular Python IDEs.</p>
+<div class="section" id="pycharm">
+<h3>PyCharm<a class="headerlink" href="#pycharm" title="Permalink to this headline">¶</a></h3>
+<p>To add Kodistubs to current project open <strong>Settings</strong> &gt; <strong>Project</strong> &gt; <strong>Project Structure</strong>,
+click <strong>+&nbsp;Add Content Root</strong> and select a folder where Kodistubs <code class="docutils literal"><span class="pre">.py</span></code> files are located.</p>
+<div class="figure" id="id1">
+<img alt="_images/pycharm_add_content_root.jpg" src="_images/pycharm_add_content_root.jpg" />
+<p class="caption"><span class="caption-text"><strong>Adding Kodistubs to the current project in PyCharm</strong></span></p>
+</div>
+<p>After that you&#8217;ll get code completion and quick help for Kodi Python API functions/classes/methods.</p>
+<div class="figure" id="id2">
+<img alt="_images/pycharm_autocompletion.jpg" src="_images/pycharm_autocompletion.jpg" />
+<p class="caption"><span class="caption-text"><strong>Code completion and quick help in PyCharm</strong></span></p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">PyCharm quick help partially supports <strong>reStructuredText</strong> formatting.</p>
+</div>
+</div>
+<div class="section" id="eclipse-pydev">
+<h3>Eclipse + PyDev<a class="headerlink" href="#eclipse-pydev" title="Permalink to this headline">¶</a></h3>
+<p>In PyDev right-click the project&#8217;s name, select <strong>Properties</strong> &gt; <strong>PyDev - PYTHONPATH</strong> &gt;
+<strong>External Libraries</strong>, click <strong>Add source folder</strong> and select a folder where Kodistubs <code class="docutils literal"><span class="pre">.py</span></code>
+files are located.</p>
+<div class="figure" id="id3">
+<img alt="_images/pydev_add_source_folder.jpg" src="_images/pydev_add_source_folder.jpg" />
+<p class="caption"><span class="caption-text"><strong>Adding Kodistubs to the current project in PyDev</strong></span></p>
+</div>
+<p>After that you&#8217;ll get code completion and quick help for Kodi Python API functions/classes/methods.</p>
+<div class="figure" id="id4">
+<img alt="_images/pydev_autocompletion.jpg" src="_images/pydev_autocompletion.jpg" />
+<p class="caption"><span class="caption-text"><strong>Code completion and quick help in PyDev</strong></span></p>
+</div>
+</div>
+<div class="section" id="python-tools-for-visual-studio">
+<h3>Python Tools for Visual Studio<a class="headerlink" href="#python-tools-for-visual-studio" title="Permalink to this headline">¶</a></h3>
+<p>In <strong>Solution Explorer</strong> right-click <strong>Search Paths</strong>, in a context menu select <strong>Add Folder To Search Path...</strong>
+and select a folder where Kodistubs <code class="docutils literal"><span class="pre">.py</span></code> files are located.</p>
+<div class="figure" id="id5">
+<img alt="_images/ptvs_add_to_search_path.jpg" src="_images/ptvs_add_to_search_path.jpg" />
+<p class="caption"><span class="caption-text"><strong>Adding Kodistubs to the current project in PTVS</strong></span></p>
+</div>
+<p>After that you&#8217;ll get code completion and quick help for Kodi Python API functions/classes/methods.</p>
+<div class="figure" id="id6">
+<img alt="_images/ptvs_autocompletion.jpg" src="_images/ptvs_autocompletion.jpg" />
+<p class="caption"><span class="caption-text"><strong>Code completion and quick help in PTVS</strong></span></p>
+</div>
+</div>
+</div>
+<div class="section" id="testing-code">
+<h2>Testing Code<a class="headerlink" href="#testing-code" title="Permalink to this headline">¶</a></h2>
+<p>You can use Kodistubs in combination with some mocking library, e.g. <a class="reference external" href="https://pypi.python.org/pypi/mock">mock</a>,
+to write unit tests for your addon code.</p>
+</div>
+<div class="section" id="documenting-code">
+<h2>Documenting Code<a class="headerlink" href="#documenting-code" title="Permalink to this headline">¶</a></h2>
+<p>Currently <a class="reference external" href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> is <em>de facto</em> the standard tool for documenting Python code. But for generating
+documentation from docstrings it requires your modules to be importable without any side-effects
+(i.e. exceptions). If you want to document your addon with Sphinx, add Kodi stubs folder to
+<code class="docutils literal"><span class="pre">sys.path</span></code> of <code class="docutils literal"><span class="pre">conf.py</span></code> file in your Sphinx project and in most cases your addon modules will be
+imported without issues. Just don&#8217;t forget to protect your module-level exetutable code with
+<code class="docutils literal"><span class="pre">if</span> <span class="pre">__name__</span> <span class="pre">==</span> <span class="pre">'__main__'</span></code> condition.</p>
+<p>Also the root path of this documentation (without <code class="docutils literal"><span class="pre">index.html</span></code>) can be used as a reference point
+for <strong>intersphinx</strong>. For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">intersphinx_mapping</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">&#39;https://docs.python.org/2.7&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+    <span class="s">&#39;http://romanvm.github.io/Kodistubs&#39;</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>This will enable cross-references to Kodi Python API objects in your Sphinx-generated documentation.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Kodistubs</a></h1>
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=romanvm&repo=Kodistubs&type=star&v=2&count=true&size=large"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Using Kodistubs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#writing-code">Writing Code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pycharm">PyCharm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eclipse-pydev">Eclipse + PyDev</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#python-tools-for-visual-studio">Python Tools for Visual Studio</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#testing-code">Testing Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documenting-code">Documenting Code</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Kodi Python API</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Kodistubs documentation!</a></li>
+      <li>Next: <a href="modules.html" title="next chapter">Kodi Python API</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      
+      
+      
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+    </div>
+
+    
+    <a href="https://github.com/romanvm/Kodistubs" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
