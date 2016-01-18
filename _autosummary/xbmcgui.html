@@ -29,7 +29,7 @@
     <link rel="prev" title="xbmcaddon" href="xbmcaddon.html" />
    
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
 
   </head>
   <body role="document">  
@@ -128,10 +128,10 @@
 <td>Create a new WindowDialog with transparent background.</td>
 </tr>
 <tr class="row-even"><td><a class="reference internal" href="#xbmcgui.WindowXML" title="xbmcgui.WindowXML"><code class="xref py py-obj docutils literal"><span class="pre">WindowXML</span></code></a>(xmlFilename,&nbsp;scriptPath[,&nbsp;...])</td>
-<td>WindowXML class.</td>
+<td>WindowXML(xmlFilename, scriptPath, defaultSkin=&#8217;Default&#8217;, defaultRes=&#8216;720p&#8217;):</td>
 </tr>
 <tr class="row-odd"><td><a class="reference internal" href="#xbmcgui.WindowXMLDialog" title="xbmcgui.WindowXMLDialog"><code class="xref py py-obj docutils literal"><span class="pre">WindowXMLDialog</span></code></a>(xmlFilename,&nbsp;scriptPath[,&nbsp;...])</td>
-<td>WindowXMLDialog class.</td>
+<td>WindowXMLDialog(xmlFilename, scriptPath, defaultSkin=&#8217;Default&#8217;, defaultRes=&#8216;720p&#8217;):</td>
 </tr>
 </tbody>
 </table>
@@ -568,6 +568,7 @@ XBMC is currently using.</p>
 <dt id="xbmcgui.WindowXML">
 <em class="property">class </em><code class="descclassname">xbmcgui.</code><code class="descname">WindowXML</code><span class="sig-paren">(</span><em>xmlFilename</em>, <em>scriptPath</em>, <em>defaultSkin='Default'</em>, <em>defaultRes='720p'</em><span class="sig-paren">)</span><a class="headerlink" href="#xbmcgui.WindowXML" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#xbmcgui.Window" title="xbmcgui.Window"><code class="xref py py-class docutils literal"><span class="pre">xbmcgui.Window</span></code></a></p>
+<p>WindowXML(xmlFilename, scriptPath, defaultSkin=&#8217;Default&#8217;, defaultRes=&#8216;720p&#8217;):</p>
 <p>WindowXML class.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -713,6 +714,7 @@ positive positions will add to bottom of list.</li>
 <dt id="xbmcgui.WindowXMLDialog">
 <em class="property">class </em><code class="descclassname">xbmcgui.</code><code class="descname">WindowXMLDialog</code><span class="sig-paren">(</span><em>xmlFilename</em>, <em>scriptPath</em>, <em>defaultSkin='Default'</em>, <em>defaultRes='720p'</em><span class="sig-paren">)</span><a class="headerlink" href="#xbmcgui.WindowXMLDialog" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#xbmcgui.WindowXML" title="xbmcgui.WindowXML"><code class="xref py py-class docutils literal"><span class="pre">xbmcgui.WindowXML</span></code></a></p>
+<p>WindowXMLDialog(xmlFilename, scriptPath, defaultSkin=&#8217;Default&#8217;, defaultRes=&#8216;720p&#8217;):</p>
 <p>WindowXMLDialog class.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
@@ -2184,7 +2186,8 @@ Returns <code class="docutils literal"><span class="pre">None</span></code> for 
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> &#8211; integer - index number of item to return.</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><strong>ValueError</strong> &#8211; If index is out of range.</td>
+<tr class="field-even field"><th class="field-name" colspan="2">Raises ValueError:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">If index is out of range.</td>
 </tr>
 </tbody>
 </table>
@@ -3212,8 +3215,6 @@ can compare an action with other actions and action.GetID() with numbers.</p>
 </p>
 
 
-
-
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
@@ -3260,8 +3261,8 @@ can compare an action with other actions and action.GetID() with numbers.</p>
       
       
       
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
       
     </div>
 
